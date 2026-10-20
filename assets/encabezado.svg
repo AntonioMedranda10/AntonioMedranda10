@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+  <title id="t">Antonio Medranda</title>
+  <desc id="d">Estudiante de Ingeniería de Software en la ULEAM, Manta, Ecuador. Trabajo en equipo, constancia y orden. Backend con NestJS y apps con React.</desc>
+  <style>
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: Consolas, 'SF Mono', Menlo, monospace; }
+    /* Cada línea de la terminal se escribe letra por letra: una tapa del color del fondo se corre. */
+    .e1 { animation: e1 14s infinite steps(10, end); }
+    .e2 { animation: e2 14s infinite steps(40, end); }
+    .e3 { animation: e3 14s infinite steps(18, end); }
+    .e4 { animation: e4 14s infinite steps(38, end); }
+    .e5 { animation: e5 14s infinite steps(16, end); }
+    .e6 { animation: e6 14s infinite steps(34, end); }
+    @keyframes e1 { 0% { transform: translateX(0); } 6%, 94% { transform: translateX(420px); } 100% { transform: translateX(0); } }
+    @keyframes e2 { 0%, 8% { transform: translateX(0); } 20%, 94% { transform: translateX(420px); } 100% { transform: translateX(0); } }
+    @keyframes e3 { 0%, 26% { transform: translateX(0); } 33%, 94% { transform: translateX(420px); } 100% { transform: translateX(0); } }
+    @keyframes e4 { 0%, 35% { transform: translateX(0); } 48%, 94% { transform: translateX(420px); } 100% { transform: translateX(0); } }
+    @keyframes e5 { 0%, 54% { transform: translateX(0); } 61%, 94% { transform: translateX(420px); } 100% { transform: translateX(0); } }
+    @keyframes e6 { 0%, 63% { transform: translateX(0); } 76%, 94% { transform: translateX(420px); } 100% { transform: translateX(0); } }
+    .cursor { animation: parpadeo 1s steps(1) infinite; }
+    @keyframes parpadeo { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .e1, .e2, .e3, .e4, .e5, .e6 { animation: none; transform: translateX(420px); }
+      .cursor { animation: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="marco"><rect width="1200" height="400" rx="28" /></clipPath>
+    <clipPath id="pantalla"><rect x="18" y="56" width="466" height="204" /></clipPath>
+    <filter id="difuminar" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55" /></filter>
+    <linearGradient id="nombre" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.45" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f3dc9a" />
+      <stop offset="0.55" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#ffffff" />
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0; 1 0" keyTimes="0; 0.4; 1" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+    <pattern id="puntos" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity=".06" />
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#marco)">
+    <rect width="1200" height="400" fill="#16181c" />
+    <!-- Luces que se mueven despacio: mostaza y los colores de la ULEAM -->
+    <g filter="url(#difuminar)">
+      <circle cx="260" cy="120" r="190" fill="#e2c36e" fill-opacity=".38">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 120 60; -40 90; 0 0" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="700" cy="360" r="170" fill="#e30614" fill-opacity=".20">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -110 -40; 60 -70; 0 0" dur="22s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1080" cy="60" r="160" fill="#95c11e" fill-opacity=".16">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -80 70; 30 40; 0 0" dur="20s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <rect width="1200" height="400" fill="url(#puntos)" />
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="27.5" fill="none" stroke="#ffffff" stroke-opacity=".08" />
+
+  <!-- Nombre y datos -->
+  <g class="sans">
+    <text x="60" y="92" font-size="18" font-weight="600" fill="#e2c36e">Hola, soy</text>
+    <text x="56" y="168" font-size="76" font-weight="800" fill="url(#nombre)" letter-spacing="-1.5">Antonio</text>
+    <text x="56" y="246" font-size="76" font-weight="800" fill="url(#nombre)" letter-spacing="-1.5">Medranda</text>
+    <g font-size="15" font-weight="600">
+      <rect x="60" y="282" width="196" height="34" rx="17" fill="#ffffff" fill-opacity=".1" />
+      <text x="158" y="304" fill="#ffffff" text-anchor="middle">Ingeniería de Software</text>
+      <rect x="266" y="282" width="86" height="34" rx="17" fill="#ffffff" fill-opacity=".1" />
+      <text x="309" y="304" fill="#ffffff" text-anchor="middle">ULEAM</text>
+      <rect x="362" y="282" width="164" height="34" rx="17" fill="#e2c36e" />
+      <text x="444" y="304" fill="#16181c" text-anchor="middle">Trabajo en equipo</text>
+    </g>
+    <circle cx="66" cy="345" r="5" fill="#e2c36e" />
+    <text x="80" y="351" font-size="16" fill="#c9cbd0">Manta, Ecuador</text>
+  </g>
+
+  <!-- Terminal que se escribe sola -->
+  <g transform="translate(640 64)">
+    <rect width="500" height="272" rx="18" fill="#0d0e10" />
+    <rect x="0.5" y="0.5" width="499" height="271" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity=".12" />
+    <circle cx="26" cy="24" r="6" fill="#e30614" />
+    <circle cx="46" cy="24" r="6" fill="#e2c36e" />
+    <circle cx="66" cy="24" r="6" fill="#95c11e" />
+    <text class="mono" x="250" y="29" font-size="13" fill="#9ea1a8" text-anchor="middle">antonio@uleam: ~</text>
+    <g class="mono" font-size="17">
+      <text x="28" y="80" fill="#95c11e">$ <tspan fill="#ffffff">whoami</tspan></text>
+      <text x="28" y="108" fill="#e2c36e">estudiante de Ingeniería de Software</text>
+      <text x="28" y="148" fill="#95c11e">$ <tspan fill="#ffffff">cat virtudes.txt</tspan></text>
+      <text x="28" y="176" fill="#e2c36e">equipo · constancia · orden</text>
+      <text x="28" y="216" fill="#95c11e">$ <tspan fill="#ffffff">./siguiente</tspan></text>
+      <text x="28" y="244" fill="#e2c36e">aprender, construir y explicar</text>
+    </g>
+    <!-- Tapas: cada una se corre a la derecha y deja ver su línea -->
+    <g fill="#0d0e10" clip-path="url(#pantalla)">
+      <rect class="e1" x="22" y="62" width="460" height="26" />
+      <rect class="e2" x="22" y="90" width="460" height="26" />
+      <rect class="e3" x="22" y="130" width="460" height="26" />
+      <rect class="e4" x="22" y="158" width="460" height="26" />
+      <rect class="e5" x="22" y="198" width="460" height="26" />
+      <rect class="e6" x="22" y="226" width="460" height="26" />
+    </g>
+    <rect class="cursor" x="316" y="230" width="10" height="20" fill="#e2c36e" />
+  </g>
+</svg>

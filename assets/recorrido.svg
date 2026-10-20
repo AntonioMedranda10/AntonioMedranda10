@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="SEP 2025: Primer proyecto, ReservaManta: canchas. OCT 2025: Reservas ULEAM, TypeORM y SQLite. NOV 2025: APIs, NestJS y Python. ENE 2026: Servidores web, Docker y prácticas. JUL 2026: EventosManta, App móvil + Laravel. SEP 2026: E-commerce 5 nodos, Backend NestJS. OCT 2026: Simplex Paso a Paso, Algoritmos y diseño.">
+  <style>
+    .avance { stroke-dasharray: 980; animation: trazar 10s ease-in-out infinite; }
+    @keyframes trazar { 0% { stroke-dashoffset: 980; } 70%, 92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 980; } }
+    .hito { transform-box: fill-box; transform-origin: center; animation: encender 10s ease-out infinite backwards; }
+    @keyframes encender { 0% { transform: scale(1.5); } 6% { transform: scale(1); } 100% { transform: scale(1); } }
+    @media (prefers-reduced-motion: reduce) { .avance { animation: none; stroke-dasharray: none; } .hito { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#25272b" /><stop offset="1" stop-color="#1a1c20" /></linearGradient>
+    <linearGradient id="borde" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2c36e" stop-opacity=".7" /><stop offset=".5" stop-color="#ffffff" stop-opacity=".06" /><stop offset="1" stop-color="#95c11e" stop-opacity=".35" /></linearGradient>
+    <filter id="luz" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40" /></filter>
+  </defs>
+  <rect width="1200" height="200" rx="24" fill="url(#fondo)" />
+  <rect x=".5" y=".5" width="1199" height="199" rx="23.5" fill="none" stroke="url(#borde)" />
+  <line x1="110" y1="96" x2="1090" y2="96" stroke="#ffffff" stroke-opacity=".12" stroke-width="4" stroke-linecap="round" />
+  <line class="avance" x1="110" y1="96" x2="1090" y2="96" stroke="#e2c36e" stroke-width="4" stroke-linecap="round" />
+  <circle class="hito" style="animation-delay:0.00s" cx="110" cy="96" r="9" fill="#1f2125" stroke="#e2c36e" stroke-width="3" />
+  <text x="110" y="60" font-family="Consolas,'SF Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#e2c36e" text-anchor="middle">SEP 2025</text>
+  <text x="110" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Primer proyecto</text>
+  <text x="110" y="164" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#c9cbd0" text-anchor="middle">ReservaManta: canchas</text><circle class="hito" style="animation-delay:1.17s" cx="273" cy="96" r="9" fill="#1f2125" stroke="#e2c36e" stroke-width="3" />
+  <text x="273" y="60" font-family="Consolas,'SF Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#e2c36e" text-anchor="middle">OCT 2025</text>
+  <text x="273" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Reservas ULEAM</text>
+  <text x="273" y="164" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#c9cbd0" text-anchor="middle">TypeORM y SQLite</text><circle class="hito" style="animation-delay:2.33s" cx="437" cy="96" r="9" fill="#1f2125" stroke="#e2c36e" stroke-width="3" />
+  <text x="437" y="60" font-family="Consolas,'SF Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#e2c36e" text-anchor="middle">NOV 2025</text>
+  <text x="437" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">APIs</text>
+  <text x="437" y="164" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#c9cbd0" text-anchor="middle">NestJS y Python</text><circle class="hito" style="animation-delay:3.50s" cx="600" cy="96" r="9" fill="#1f2125" stroke="#e2c36e" stroke-width="3" />
+  <text x="600" y="60" font-family="Consolas,'SF Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#e2c36e" text-anchor="middle">ENE 2026</text>
+  <text x="600" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Servidores web</text>
+  <text x="600" y="164" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#c9cbd0" text-anchor="middle">Docker y prácticas</text><circle class="hito" style="animation-delay:4.67s" cx="763" cy="96" r="9" fill="#1f2125" stroke="#e2c36e" stroke-width="3" />
+  <text x="763" y="60" font-family="Consolas,'SF Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#e2c36e" text-anchor="middle">JUL 2026</text>
+  <text x="763" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">EventosManta</text>
+  <text x="763" y="164" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#c9cbd0" text-anchor="middle">App móvil + Laravel</text><circle class="hito" style="animation-delay:5.83s" cx="927" cy="96" r="9" fill="#1f2125" stroke="#e2c36e" stroke-width="3" />
+  <text x="927" y="60" font-family="Consolas,'SF Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#e2c36e" text-anchor="middle">SEP 2026</text>
+  <text x="927" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">E-commerce 5 nodos</text>
+  <text x="927" y="164" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#c9cbd0" text-anchor="middle">Backend NestJS</text><circle class="hito" style="animation-delay:7.00s" cx="1090" cy="96" r="14" fill="#e2c36e" stroke="#e2c36e" stroke-width="3" />
+  <text x="1090" y="60" font-family="Consolas,'SF Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#e2c36e" text-anchor="middle">OCT 2026</text>
+  <text x="1090" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Simplex Paso a Paso</text>
+  <text x="1090" y="164" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#c9cbd0" text-anchor="middle">Algoritmos y diseño</text>
+</svg>
