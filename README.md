@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/encabezado.svg" width="100%" alt="Hola, soy Antonio Medranda: estudiante de Ingeniería de Software en la ULEAM, de Manta, Ecuador. Trabajo en equipo, constancia y orden." />
+<img src="assets/encabezado.svg" width="100%" alt="Hola, soy Antonio Medranda: estudiante de Ingeniería de Software en la ULEAM, de Manta, Ecuador. Desarrollo backends con NestJS, construyo apps con React y React Native, y trabajo mejor en equipo." />
 
 </div>
 
