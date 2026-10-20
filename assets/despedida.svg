@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Paso a paso, como el simplex: cada iteración, un poco mejor.">
+  <style>
+    .ola1 { animation: mover 9s linear infinite; }
+    .ola2 { animation: mover 14s linear infinite reverse; }
+    @keyframes mover { from { transform: translateX(0); } to { transform: translateX(-1200px); } }
+    .frase { animation: aparecer 6s ease-in-out infinite; }
+    @keyframes aparecer { 0%, 100% { opacity: .75; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .ola1, .ola2, .frase { animation: none; } }
+  </style>
+  <clipPath id="marco"><rect width="1200" height="200" rx="24" /></clipPath>
+  <g clip-path="url(#marco)">
+    <rect width="1200" height="200" fill="#16181c" />
+    <g transform="translate(0 52)"><path class="ola2" d="M0 120 Q30 140 60 120 Q90 100 120 120 Q150 140 180 120 Q210 100 240 120 Q270 140 300 120 Q330 100 360 120 Q390 140 420 120 Q450 100 480 120 Q510 140 540 120 Q570 100 600 120 Q630 140 660 120 Q690 100 720 120 Q750 140 780 120 Q810 100 840 120 Q870 140 900 120 Q930 100 960 120 Q990 140 1020 120 Q1050 100 1080 120 Q1110 140 1140 120 Q1170 100 1200 120 Q1230 140 1260 120 Q1290 100 1320 120 Q1350 140 1380 120 Q1410 100 1440 120 Q1470 140 1500 120 Q1530 100 1560 120 Q1590 140 1620 120 Q1650 100 1680 120 Q1710 140 1740 120 Q1770 100 1800 120 Q1830 140 1860 120 Q1890 100 1920 120 Q1950 140 1980 120 Q2010 100 2040 120 Q2070 140 2100 120 Q2130 100 2160 120 Q2190 140 2220 120 Q2250 100 2280 120 Q2310 140 2340 120 Q2370 100 2400 120 V200 H0 Z" fill="#95c11e" fill-opacity=".10" /></g>
+    <g transform="translate(0 66)"><path class="ola1" d="M0 120 Q30 148 60 120 Q90 92 120 120 Q150 148 180 120 Q210 92 240 120 Q270 148 300 120 Q330 92 360 120 Q390 148 420 120 Q450 92 480 120 Q510 148 540 120 Q570 92 600 120 Q630 148 660 120 Q690 92 720 120 Q750 148 780 120 Q810 92 840 120 Q870 148 900 120 Q930 92 960 120 Q990 148 1020 120 Q1050 92 1080 120 Q1110 148 1140 120 Q1170 92 1200 120 Q1230 148 1260 120 Q1290 92 1320 120 Q1350 148 1380 120 Q1410 92 1440 120 Q1470 148 1500 120 Q1530 92 1560 120 Q1590 148 1620 120 Q1650 92 1680 120 Q1710 148 1740 120 Q1770 92 1800 120 Q1830 148 1860 120 Q1890 92 1920 120 Q1950 148 1980 120 Q2010 92 2040 120 Q2070 148 2100 120 Q2130 92 2160 120 Q2190 148 2220 120 Q2250 92 2280 120 Q2310 148 2340 120 Q2370 92 2400 120 V200 H0 Z" fill="#e2c36e" fill-opacity=".16" /></g>
+  </g>
+  <text class="frase" x="600" y="78" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" fill="#ffffff" text-anchor="middle">Paso a paso, como el simplex</text>
+  <text x="600" y="110" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#e2c36e" text-anchor="middle">cada iteración, un poco mejor</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Mis virtudes. Trabajo en equipo: Sumo, ayudo y me comunico.. Responsable: Cumplo con lo que me toca, a tiempo.. Constante: Sigo paso a paso hasta que funciona.. Curioso: Aprendo lo que el proyecto necesite.">
+  <style>
+    .trazo { stroke-dasharray: 100; animation: dibujar 8s ease-in-out infinite backwards; }
+    @keyframes dibujar { 0% { stroke-dashoffset: 100; } 18%, 100% { stroke-dashoffset: 0; } }
+    .activa { opacity: 0; animation: activa 8s ease-in-out infinite backwards; }
+    @keyframes activa { 0% { opacity: 0; } 8%, 22% { opacity: 1; } 32%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .trazo { animation: none; stroke-dasharray: none; } .activa { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#25272b" /><stop offset="1" stop-color="#1a1c20" /></linearGradient>
+    <linearGradient id="borde" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2c36e" stop-opacity=".7" /><stop offset=".5" stop-color="#ffffff" stop-opacity=".06" /><stop offset="1" stop-color="#95c11e" stop-opacity=".35" /></linearGradient>
+    <filter id="luz" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30" /></filter>
+  </defs>
+  <g>
+    <rect x="12" y="12" width="282" height="216" rx="22" fill="url(#fondo)" />
+    <rect class="activa" style="animation-delay:0.0s" x="12" y="12" width="282" height="216" rx="22" fill="#e2c36e" fill-opacity=".1" />
+    <rect x="12.5" y="12.5" width="281" height="215" rx="21.5" fill="none" stroke="url(#borde)" />
+    <circle class="activa" style="animation-delay:0.0s" cx="76" cy="72" r="44" fill="#e2c36e" fill-opacity=".45" filter="url(#luz)" />
+    <g transform="translate(44 40)">
+      <rect width="64" height="64" rx="18" fill="#1f2125" stroke="#e2c36e" stroke-opacity=".5" />
+      <path d="M24 26a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM8 50v-4a16 16 0 0 1 32 0v4M44 26a7 7 0 1 0 0-14M56 50v-3a14 14 0 0 0-10-13.4" fill="none" stroke="#e2c36e" stroke-opacity=".28" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path class="trazo" style="animation-delay:0.0s" d="M24 26a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM8 50v-4a16 16 0 0 1 32 0v4M44 26a7 7 0 1 0 0-14M56 50v-3a14 14 0 0 0-10-13.4" fill="none" stroke="#e2c36e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" />
+    </g>
+    <text x="42" y="148" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="800" fill="#ffffff">Trabajo en equipo</text>
+    <text x="42" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#c9cbd0">Sumo, ayudo</text>
+    <text x="42" y="200" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#c9cbd0">y me comunico.</text>
+  </g><g>
+    <rect x="309" y="12" width="282" height="216" rx="22" fill="url(#fondo)" />
+    <rect class="activa" style="animation-delay:2.0s" x="309" y="12" width="282" height="216" rx="22" fill="#e2c36e" fill-opacity=".1" />
+    <rect x="309.5" y="12.5" width="281" height="215" rx="21.5" fill="none" stroke="url(#borde)" />
+    <circle class="activa" style="animation-delay:2.0s" cx="373" cy="72" r="44" fill="#e2c36e" fill-opacity=".45" filter="url(#luz)" />
+    <g transform="translate(341 40)">
+      <rect width="64" height="64" rx="18" fill="#1f2125" stroke="#e2c36e" stroke-opacity=".5" />
+      <path d="M32 8l20 8v14c0 12-8.5 20-20 26C20.5 50 12 42 12 30V16zM22 31l7 7 13-14" fill="none" stroke="#e2c36e" stroke-opacity=".28" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path class="trazo" style="animation-delay:2.0s" d="M32 8l20 8v14c0 12-8.5 20-20 26C20.5 50 12 42 12 30V16zM22 31l7 7 13-14" fill="none" stroke="#e2c36e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" />
+    </g>
+    <text x="339" y="148" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="800" fill="#ffffff">Responsable</text>
+    <text x="339" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#c9cbd0">Cumplo con lo que</text>
+    <text x="339" y="200" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#c9cbd0">me toca, a tiempo.</text>
+  </g><g>
+    <rect x="606" y="12" width="282" height="216" rx="22" fill="url(#fondo)" />
+    <rect class="activa" style="animation-delay:4.0s" x="606" y="12" width="282" height="216" rx="22" fill="#e2c36e" fill-opacity=".1" />
+    <rect x="606.5" y="12.5" width="281" height="215" rx="21.5" fill="none" stroke="url(#borde)" />
+    <circle class="activa" style="animation-delay:4.0s" cx="670" cy="72" r="44" fill="#e2c36e" fill-opacity=".45" filter="url(#luz)" />
+    <g transform="translate(638 40)">
+      <rect width="64" height="64" rx="18" fill="#1f2125" stroke="#e2c36e" stroke-opacity=".5" />
+      <path d="M8 50h12V38h12V26h12V14h12M48 8h8v8" fill="none" stroke="#e2c36e" stroke-opacity=".28" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path class="trazo" style="animation-delay:4.0s" d="M8 50h12V38h12V26h12V14h12M48 8h8v8" fill="none" stroke="#e2c36e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" />
+    </g>
+    <text x="636" y="148" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="800" fill="#ffffff">Constante</text>
+    <text x="636" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#c9cbd0">Sigo paso a paso</text>
+    <text x="636" y="200" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#c9cbd0">hasta que funciona.</text>
+  </g><g>
+    <rect x="903" y="12" width="282" height="216" rx="22" fill="url(#fondo)" />
+    <rect class="activa" style="animation-delay:6.0s" x="903" y="12" width="282" height="216" rx="22" fill="#e2c36e" fill-opacity=".1" />
+    <rect x="903.5" y="12.5" width="281" height="215" rx="21.5" fill="none" stroke="url(#borde)" />
+    <circle class="activa" style="animation-delay:6.0s" cx="967" cy="72" r="44" fill="#e2c36e" fill-opacity=".45" filter="url(#luz)" />
+    <g transform="translate(935 40)">
+      <rect width="64" height="64" rx="18" fill="#1f2125" stroke="#e2c36e" stroke-opacity=".5" />
+      <path d="M26 44a18 18 0 1 1 0-36 18 18 0 0 1 0 36zM39 39l15 15M20 26h12M26 20v12" fill="none" stroke="#e2c36e" stroke-opacity=".28" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path class="trazo" style="animation-delay:6.0s" d="M26 44a18 18 0 1 1 0-36 18 18 0 0 1 0 36zM39 39l15 15M20 26h12M26 20v12" fill="none" stroke="#e2c36e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" />
+    </g>
+    <text x="933" y="148" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="800" fill="#ffffff">Curioso</text>
+    <text x="933" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#c9cbd0">Aprendo lo que</text>
+    <text x="933" y="200" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#c9cbd0">el proyecto necesite.</text>
+  </g>
+</svg>

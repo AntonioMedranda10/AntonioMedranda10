@@ -29,28 +29,18 @@ servicios en Python, una API en Laravel, una app móvil en React Native y conten
 
 <img src="assets/datos.svg" width="100%" alt="8.º nivel de Ingeniería de Software. 3 lenguajes de backend: TypeScript, Python y PHP. Más de 420 pruebas automáticas en Simplex Paso a Paso. 11 repositorios públicos." />
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <b>💪 Mis virtudes</b>
-      <ul>
-        <li><b>Trabajo en equipo:</b> sumo, ayudo y me comunico.</li>
-        <li><b>Responsable:</b> cumplo con lo que me toca y a tiempo.</li>
-        <li><b>Constante:</b> sigo hasta que funciona.</li>
-        <li><b>Curioso:</b> aprendo lo que haga falta.</li>
-      </ul>
-    </td>
-    <td valign="top" width="50%">
-      <b>🧭 Cómo trabajo</b>
-      <ul>
-        <li>Entiendo el problema antes de escribir código.</li>
-        <li>Commits pequeños, con mensajes claros.</li>
-        <li>Pruebas y revisión antes de unir cambios.</li>
-        <li>Todo documentado, para que otro pueda seguir.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/titulo-virtudes.svg" height="48" alt="Mis virtudes" />
+
+<img src="assets/virtudes.svg" width="100%" alt="Trabajo en equipo: sumo, ayudo y me comunico. Responsable: cumplo con lo que me toca, a tiempo. Constante: sigo paso a paso hasta que funciona. Curioso: aprendo lo que el proyecto necesite." />
+
+<b>🧭 Cómo trabajo</b>
+
+<ul>
+  <li>Entiendo el problema antes de escribir código.</li>
+  <li>Commits pequeños, con mensajes claros.</li>
+  <li>Pruebas y revisión antes de unir cambios.</li>
+  <li>Todo documentado, para que otro pueda seguir.</li>
+</ul>
 
 <b>🛠️ En qué he trabajado</b>
 
@@ -96,4 +86,14 @@ servicios en Python, una API en Laravel, una app móvil en React Native y conten
 
 <img src="assets/separador.svg" width="100%" alt="" />
 
-<p align="center"><i>Paso a paso, como el simplex: cada iteración, un poco mejor.</i></p>
+<img src="assets/titulo-actividad.svg" height="48" alt="Mi actividad" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AntonioMedranda10/AntonioMedranda10/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AntonioMedranda10/AntonioMedranda10/output/pacman-contribution-graph.svg" />
+  <img src="https://raw.githubusercontent.com/AntonioMedranda10/AntonioMedranda10/output/pacman-contribution-graph-dark.svg" width="100%" alt="Un Pac-Man que se come mi gráfico de contribuciones" />
+</picture>
+
+<br/><br/>
+
+<img src="assets/despedida.svg" width="100%" alt="Paso a paso, como el simplex: cada iteración, un poco mejor." />

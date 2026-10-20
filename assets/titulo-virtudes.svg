@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="234" height="56" viewBox="0 0 234 56" role="img" aria-label="Mis virtudes">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e2c36e" /><stop offset="1" stop-color="#f3dc9a" /></linearGradient></defs>
+  <rect width="234" height="56" rx="28" fill="#1f2125" />
+  <rect x="0.5" y="0.5" width="233" height="55" rx="27.5" fill="none" stroke="#e2c36e" stroke-opacity=".45" />
+  <rect x="8" y="8" width="40" height="40" rx="20" fill="url(#g)" />
+  <text x="28" y="34" font-family="Consolas,'SF Mono',Menlo,monospace" font-size="20" font-weight="700" fill="#1f2125" text-anchor="middle">★</text>
+  <text x="62" y="36" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff">Mis virtudes</text>
+</svg>

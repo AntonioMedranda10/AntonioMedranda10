@@ -1,0 +1,31 @@
+# Dibuja mi gráfico de contribuciones con un Pac-Man que se lo come. Corre cada día, al subir
+# cambios y a mano desde la pestaña Actions; deja las imágenes en la rama «output».
+name: Pac-Man de contribuciones
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Generar el gráfico de Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Publicar las imágenes en la rama output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Actualizar el Pac-Man de contribuciones
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
